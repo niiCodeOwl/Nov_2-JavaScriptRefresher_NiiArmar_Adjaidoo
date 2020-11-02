@@ -1,0 +1,7 @@
+ let sessid =  document.querySelector("#sessionid").value
+  let phone = document.getElementById("phone").value;  
+
+  
+  localStorage.setItem("sessid",sessid)
+  localStorage.setItem("phone",phone)
+  window.location.href = "menu.php"
